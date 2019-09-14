@@ -1,0 +1,99 @@
+/* thid id my coment in css*/
+ li.nav-item{
+    list-style-type: none;   
+}
+div.f{
+    color: white!important;
+    font-size: 15px;
+}
+
+.1{
+    background-color: black!important;
+    color:white;
+}
+footer{
+    width:100% !important;
+    background-color: black;
+}
+li{
+    list-style-type: none;
+}
+li>a{
+    color:silver;
+}
+div.g{
+    width: 380px;
+    height: 50px;
+    position: relative;
+    animation-name: ashy;
+    animation-duration: 2s;
+    
+    animation-iteration-count: infinite;
+    border:5px solid rgb(0, 255, 242);
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    
+}
+@keyframes ashy{
+    50%{left:900px;}
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    div.col{
+        border: 5px solid black;
+    }
+    P{
+        font-size: 20px;
+    }
+    h1:hover{
+        color:silver !important;
+        transition: color 2S;
+    }
+    img:focus{
+        color:rgb(0, 195, 255)
+    }
+    /* Container holding the image and the text */
+div.container {
+    position: relative;
+    width: 100%;
+   
+  }
+  
+  
+  div.text-block {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    background-color: black;
+    color: white;
+    
+  }
+li:hover{
+    color: aqua !important;
+    transition: color 2s;
+}
+li>a:hover{
+   color: aqua
+    transition: color 2s;
+
+}
+li>a:focus{
+    background-color:black
+}
+h1.ashy{
+    
+
+    
+    
+    
+
+    width: 200px !important;
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    
+}
